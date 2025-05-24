@@ -1,0 +1,10 @@
+services:
+  web:
+    image: 2220009/docker-build-cloud-demo:latest
+    ports:
+      - "8080:80"
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine
