@@ -1,4 +1,4 @@
-# Use official ngin
+# Use official nginx
 FROM nginx:alpine
 
 # Copy static site
